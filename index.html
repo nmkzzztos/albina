@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Albina Brynnetka</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Обо мне</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Привет,<br />Я <span class="home__title-color">Альбина</span><br />
+            У меня сегодня <br />
+            день рождение
+          </h1>
+
+          <a href="#about" class="button">Контакт</a>
+        </div>
+
+        <div class="home__social">
+          <a
+            href="https://instagram.com/albinabrynnetka?igshid=YmMyMTA2M2Y="
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://vk.com/albina2147"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-vk"></i
+          ></a>
+        </div>
+
+        <div class="home__img">
+          <svg class="home__blob" viewBox="0 0 479 467">
+            <image
+              class="home__blob-img"
+              x="50"
+              y="70"
+              href="assets/img/avatar.png"
+            />
+          </svg>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">Обо мне</h2>
+
+        <div class="about__container bd-grid">
+          <div>
+            <h2 class="about__subtitle">Альбина Брюнетка</h2>
+            <p class="about__text">
+              Я магнит для денег и самая счастливая 👑 <br />
+              У меня прекрасная и талантливая дочь 💁‍♀ <br />
+              Муж инженер и геймер 🧠
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Контакт</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="button"
+              value="Отправить"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Albina Brynnetka</p>
+      <div class="footer__social">
+        <a
+          href="https://instagram.com/albinabrynnetka?igshid=YmMyMTA2M2Y="
+          class="footer__icon"
+          target="_blank"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://vk.com/albina2147" class="footer__icon" target="_blank"
+          ><i class="bx bxl-vk"></i
+        ></a>
+      </div>
+      <p class="footer__copy">&#169;All rigths reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
