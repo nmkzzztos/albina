@@ -236,7 +236,7 @@ img {
 }
 
 .home__blob {
-  background: url("../img/leopard_print_texture_background.jpg");
+  background: url("leopard_print_texture_background.jpg");
   border-radius: 50%;
   background-size: 500px 500px;
 }
